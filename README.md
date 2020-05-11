@@ -13,7 +13,7 @@ Most of the global chains have a store locator in their website. This locator us
     - Drop repeated records
     - Exception handler -- bypass a survey prompt
 
-With the scraper, I can loop through zip codes and collect stores by city. So far, I have scraped the following cities. Store information is stored in a single file called "[store_locations.csv](https://github.com/ruilinchen/chain_store_scraper/blob/master/data/store_locations.csv)", which can be found in the [data folder](https://github.com/ruilinchen/chain_store_scraper/tree/master/data). Note that there might be repeated records. 
+With the scraper, I can loop through zip codes and collect stores by city. So far, I have scraped the following cities. Store information is stored in a single file called "[store_locations.csv](https://github.com/ruilinchen/chain_store_scraper/blob/master/data/store_locations.csv)", which can be found in the [data folder](https://github.com/ruilinchen/chain_store_scraper/tree/master/data). <ins> Note that there might be repeated records. </ins>
 - Baltimore
 - Phoenix
 - Seattle
