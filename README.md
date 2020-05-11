@@ -1,6 +1,6 @@
 # chain_store_scraper: get branch locations for global chain store brands
 
-Most of global chains have a store locator in their website. This locator usually allows for searching by zip codes, which enables us to collect store location information by region. All we need is a list of zip codes for the destination of interest, and a scraper that can scrape the locator page. 
+Most of the global chains have a store locator in their website. This locator usually allows for searching by zip codes, which enables us to collect store location information by region. All we need is a list of zip codes for the destination of interest, and a scraper that can scrape the locator page. 
 - I began by compiling zip codes by city. I wrote a scraper to collect zip codes from [WorldPostalCode](https://worldpostalcode.com/united-states/washington/seattle), which has a list of zip codes for cities all over the world. Zip code scraper can be found [here](https://github.com/ruilinchen/chain_store_scraper/blob/master/zip_code_scraper.ipynb). All the collected zip codes are stored in a single file called "[zip_codes_in_the_world.csv](https://github.com/ruilinchen/chain_store_scraper/blob/master/data/zip_codes_in_the_world.csv)", which can be found in the [data folder](https://github.com/ruilinchen/chain_store_scraper/tree/master/data). 
 - Second, write a scraper using Selenium to collect search results by zip codes. 
   - A prelimiary scraper is available [here](https://github.com/ruilinchen/chain_store_scraper/blob/master/mcdonalds_locator.py). It can now successfully:
