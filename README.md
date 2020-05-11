@@ -7,7 +7,13 @@ Most of global chains have a store locator in their website. This locator usuall
     - enter zip code as search term
     - submit search request
     - display all the returned results in a single webpage. 
-  - What is next:
-    - collect store info from this webpage for each zip code
-    - loop through all the zip codes. 
-
+    - extract store info from this webpage for each zip code
+    - loop through all the zip codes
+  - Future steps:
+    - Drop repeated records
+    - Exception handler -- bypass a survey prompt
+- Run the scraper to collect stores by city:
+  - So far, I have scraped the following cities. Store information is stored in a single file called "[store_locations.csv](https://github.com/ruilinchen/chain_store_scraper/blob/master/data/store_locations.csv)", which can be found in the [data folder](https://github.com/ruilinchen/chain_store_scraper/tree/master/data). Note that there might be repeated records. 
+    - Baltimore
+    - Phoenix
+    - Seattle
